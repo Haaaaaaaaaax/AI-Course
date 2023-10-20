@@ -49,3 +49,12 @@ class INSTANT(App):
 
 #run the app
 INSTANT().run()
+
+
+
+
+#references
+           -https://www.javatpoint.com/android-development-using-python
+           -https://www.geeksforgeeks.org/create-first-gui-application-using-python-tkinter/
+           -https://towardsdatascience.com/building-android-apps-with-python-part-1-603820bebde8
+           -https://www.geeksforgeeks.org/python-kivy-kv-file/
