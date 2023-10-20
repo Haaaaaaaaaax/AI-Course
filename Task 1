@@ -1,1 +1,51 @@
-#what mechanism should we us in python to create an android app
+#What mechanism should we us in python to create an android app?
+
+#Best two options for android apps or GUIs is tkinter and kivy both are working on python.
+#There are some alternatives like QPython whic is a script engine that excutes python on an Android devices, also there are PySide PyMob which are libraries and last we have Pyqtdeploy.
+#we will only cover tkinter and kivy in this file and know how to import it.
+
+
+
+
+#tkinter
+
+# Import Module
+from tkinter import *
+ 
+# create root window
+root = Tk()
+
+# root window title and dimension
+root.title("INSTANT Course")
+
+# Set geometry(widthxheight)
+root.geometry('350x200')
+
+#adding a label to the root window
+lbl = Label(root, text = "Hello INSTANT Community")
+lbl.grid()
+
+# Execute Tkinter
+root.mainloop()
+
+
+
+
+
+#kivy
+
+#Import Module
+import kivy
+
+#Import App to allow us make an android window also label to allow us to write in the app
+from kivy.app import App
+from kivy.uix.label import label
+
+#Define the app class
+class INSTANT(App):
+      def build(self):
+          return label(text="Hello INSTANT Community")
+
+
+#run the app
+INSTANT().run()
