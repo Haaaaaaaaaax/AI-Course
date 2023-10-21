@@ -16,7 +16,7 @@ from tkinter import *
 root = Tk()
 
 # root window title and dimension
-root.title("INSTANT Course")
+root.title("INSTANT")
 
 # Set geometry(widthxheight)
 root.geometry('350x200')
