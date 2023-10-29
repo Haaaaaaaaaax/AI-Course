@@ -1,0 +1,36 @@
+Task 5: What's OOD?
+OOD stands for Object-Oriented Design which is the processof using an object-oriented methodology to design a computing system or application.
+OR it is the process of planning a system of interacting objects for the purpose of solving a software problem.
+Here is a map for it: https://www.google.com.eg/url?sa=i&url=https%3A%2F%2Fscience.jrank.org%2Fprogramming%2FObjectOriented_Design_OOD.html&psig=AOvVaw1OIbXyjoLhX9-lRPyfOoV-&ust=1698679492866000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIij6LnIm4IDFQAAAAAdAAAAABAD
+
+Task 6: What's the operating system core language?
+We all know that machines only understand binaries, as it's too difficult to write a code as binaries we made languages to make it easier.
+some languages are very close to machine language like the C programming language, so as the operating system is in need to be really fast they shuld use a language which is colse to binaries.
+C programming language is a very Good example and its the core of the operating system language.
+
+Task 7: What's Javascript advantages?
+Speed
+Reduces load on the server
+Ease of use
+Rich Interface
+Versatility
+Extended functionality
+Interoperability
+Popularity
+Platform independence
+Powerful frameworks
+Procedural programming features
+Response to user activity
+Updates
+
+reference:https://codeinstitute.net/global/blog/advantages-of-javascript/
+
+Task 8: What's fragmentation?
+1- Fragmentation in operating system: The process of dividing a computer file, such as a data file or an executable program file, into fragments that are stored in different parts of a computer’s storage medium,
+    such as its hard disc or RAM, is known as fragmentation in computing.
+-Cause of Fragmentation: This can happen when a file is too large to fit into a single contiguous block of free space on the storage medium, or when the blocks of free space on the medium are insufficient to hold the file.
+-Effect of Fragmentation: This can reduce system performance and make it more difficult to access the file.
+-Types of Fragmentation
+ There are two main types of fragmentation: 1- Internal fragmentation: Internal fragmentation occurs when there is unused space within a memory block.
+                                            2- External fragmentation: External fragmentation occurs when a storage medium, such as a hard disc or solid-state drive, has many small blocks of free space scattered throughout it.
+2- Fragments in programming: an unwanted problem that occurs in the OS in which a process is unloaded and loaded from memory, and the free memory space gets fragmented.
