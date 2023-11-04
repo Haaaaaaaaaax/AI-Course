@@ -22,4 +22,47 @@ Library targets a specific functionality, while framework tries to provide every
 Also framework can contain lots of libraries
 
 
-#Task 3:
+#Task 3: What is OOD With an example?
+OOD stands for Object-Oriented Design which is the processof using an object-oriented methodology to design a computing system or application.
+OR it is the process of planning a system of interacting objects for the purpose of solving a software problem.
+OR it is a software design paradigm that is centered around the concept of objects, which represent real-world entities or concepts in a computer program. Objects are instances of classes, which are blueprint templates that define the structure and behavior of objects. Object-oriented design encourages the organization of software into smaller, reusable, and interconnected units, making it easier to manage, maintain, and extend the codebase.
+Here is a map for it: https://www.google.com.eg/url?sa=i&url=https%3A%2F%2Fscience.jrank.org%2Fprogramming%2FObjectOriented_Design_OOD.html&psig=AOvVaw1OIbXyjoLhX9-lRPyfOoV-&ust=1698679492866000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIij6LnIm4IDFQAAAAAdAAAAABAD
+
+Examples: create modular, reusable, and maintainable software systems.
+
+
+
+#Task 4: How to solve fragmentation:
+internal fragmentation: Internal fragmentation occurs when allocated memory or storage is larger than what is actually needed to store the data, which results in unused or wasted space within the allocated block.
+solution: 1-Using dynamic memory allocation techniques that allocate memory exactly as needed, which can help minimize internal fragmentation in software development.
+          2- Choosing appropriate cluster or block sizes in file systems to minimize unused space within allocated storage units.
+          3- Implementing data packing techniques or using data compression to make better use of allocated space.
+external fragmentation: external fragmentation occurs when the free space is divided into smaller, non-contiguous blocks, making it difficult to allocate larger blocks of memory or storage, even though the total available space might be sufficient.
+solution: defragmentation tools can be used to reorganize the data on a storage device. These tools consolidate free space by moving data around, ensuring that files are stored contiguously.
+
+
+
+Task 5: What is the diffrence between method and function?
+Function: is a set of instructions that perform a task.
+Method: a set of instructions that are associated with an object.
+
+
+
+Task 6: How to access an element in set{}?
+You cannot access items in a set by referring to an index or a key. But you can loop through the set items using a for loop, or ask if a specified value is present in a set, by using the in keyword.
+OR You can cast the set to a list and then access the element you want and the cast it bacak to set.
+
+
+Task 7: Do while in python
+In Python, you can create a "do-while" loop using a while loop with a conditional statement at the end of the loop. This is similar to the concept of a "do-while" loop found in some other programming languages. The loop will execute at least once, and then it will continue executing as long as the specified condition is true.
+example 
+
+count = 0
+
+while True:
+    print(f"Count is {count}")
+    count += 1
+
+    if count >= 5:
+        break
+
