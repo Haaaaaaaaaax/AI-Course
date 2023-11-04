@@ -1,0 +1,25 @@
+#Task 1: How to accept only numbers or characters from the user?
+To accept only characters we can use isalpha()
+
+username = input("What is your username)
+if username.isalpha() is True:
+    print("Hello",username)
+else:
+    print("Only characters is allowed)
+
+To accept only numbers we can use isnumeric()
+
+password = input("What is your password)
+if password.isnumeric() is True:
+    print("password is allowed")
+else:
+    print("Only numbers are allowed")
+
+
+#Task 2: What is the diffrence between library and framework?
+
+Library targets a specific functionality, while framework tries to provide everything required to develop a complete application.
+Also framework can contain lots of libraries
+
+
+#Task 3:
