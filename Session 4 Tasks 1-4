@@ -1,0 +1,11 @@
+#What is the difference between OOD(Object-Oriented Design) and a class diagram?
+1-Object-Oriented Design (OOD):
+  Purpose: OOD is a high-level design process that involves defining the structure and behavior of a software system using object-oriented principles. It focuses on how the system will be organized, what classes will be created, and how these classes will interact to fulfill the system's requirements.
+  Scope: OOD encompasses the entire design process, including the definition of classes, their attributes and methods, the relationships between classes, and the overall architecture of the system.
+  Abstraction: OOD abstracts the real-world entities or concepts into classes and objects, emphasizing the system's architecture and its components.
+
+2-Class Diagram:
+  Purpose: A class diagram is a specific type of UML (Unified Modeling Language) diagram used to visually represent the structure of a system by illustrating the classes, their attributes, methods, and the relationships between them. It's a documentation tool for OOD.
+  Scope: A class diagram is a part of OOD. It focuses specifically on the classes and their relationships within the system. It provides a static view of the system's architecture, showing the class structure but not dynamic behaviors or interactions.
+  Abstraction: Class diagrams are concrete and visual representations of the classes in the system, their attributes, and associations between them.
+
