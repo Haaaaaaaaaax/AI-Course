@@ -1,0 +1,21 @@
+Task 1: what is the difference between system testing, dependence testing, white box testing and unit testing?
+1-Unit Testing:
+               -Focus: Unit testing is the smallest level of testing and involves testing individual components or units of code in isolation.
+               -Scope: It is performed by developers and aims to validate that each unit of the software performs as designed.
+               -Approach: White-box testing is commonly used for unit testing, where the internal structure, logic, and code paths of the individual units are examined.
+
+2-White-Box Testing:
+                    -Focus: White-box testing, also known as clear-box or structural testing, focuses on the internal logic and structure of the code.
+                    -Scope: It involves testing the internal workings of the software, including code paths, algorithms, and data flow.
+                    -Approach: Testers have knowledge of the internal structure of the code, and test cases are designed based on the code's logic. It is commonly used at the unit testing level.
+
+3-Dependency Testing:
+                     -Focus: Dependency testing checks how well the software handles external dependencies such as databases, external services, or APIs.
+                     -Scope: It assesses the impact of changes in one module or system on other modules or systems.
+                     -Approach: It aims to ensure that the software works seamlessly with its external dependencies, and it can be performed at various levels of testing, including integration testing and system testing.
+
+4-System Testing:
+                 -Focus: System testing evaluates the entire system as a whole to ensure that all components work together as intended.
+                 -Scope: It involves testing the complete, integrated system to verify that it meets specified requirements.
+                 -Approach: It is a black-box testing technique, focusing on the system's external behavior without knowledge of its internal implementation details.
+
