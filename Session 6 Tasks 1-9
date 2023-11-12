@@ -19,3 +19,17 @@ Task 1: what is the difference between system testing, dependence testing, white
                  -Scope: It involves testing the complete, integrated system to verify that it meets specified requirements.
                  -Approach: It is a black-box testing technique, focusing on the system's external behavior without knowledge of its internal implementation details.
 
+Task 2: What is the diffrence between SQL injection, Dependency injection and code injection?
+1-SQL Injection:
+                -Purpose: SQL injection is a type of security vulnerability that occurs when an attacker is able to manipulate an application's SQL query by injecting malicious SQL code.
+                -Concern: It is a security issue where an attacker can manipulate or modify a database query to gain unauthorized access, retrieve, modify, or delete data.
+
+2-Dependency Injection:
+                       -Purpose: Dependency injection is a design pattern used in software development to achieve inversion of control (IoC) by injecting dependencies from the outside rather than creating them within a class.
+                       -Concern: It addresses the management of object dependencies and improves modularity and testability of the code.
+
+3-Code Injection:
+                 -Purpose: Code injection refers to the unauthorized insertion or manipulation of code within an application.
+                 -Concern: It is a broad term that encompasses various types of injections, including SQL injection and other types of attacks where external code is injected and executed.
+
+Task 3: 
