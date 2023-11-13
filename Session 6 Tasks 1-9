@@ -32,4 +32,64 @@ Task 2: What is the diffrence between SQL injection, Dependency injection and co
                  -Purpose: Code injection refers to the unauthorized insertion or manipulation of code within an application.
                  -Concern: It is a broad term that encompasses various types of injections, including SQL injection and other types of attacks where external code is injected and executed.
 
-Task 3: 
+Task 3: what is the complexity of all data structures?
+There are two types of complexity,
+1- Time complexity: It is defined as the number of times a particular instruction set is executed rather than the total time taken. It is because the total time taken also depends on some external factors like the compiler used, the processor’s speed, etc.
+2- space complexity: It is the total memory space required by the program for its execution.
+Here's a brief overview of the complexities for common data structures:
+1-Arrays:
+         -Access: O(1)
+         -Search: O(n)
+         -Insertion/Deletion at the end: O(1)
+         -Insertion/Deletion in the middle: O(n)
+
+2-Linked Lists:
+               -Access: O(n)
+               -Search: O(n)
+               -Insertion/Deletion at the beginning: O(1)
+               -Insertion/Deletion at the end (with tail pointer): O(1)
+               -Insertion/Deletion in the middle: O(n)
+
+3-Stacks:
+         -Push/Pop: O(1)
+
+4-Queues:
+         -Enqueue/Dequeue: O(1)
+
+5- Hash Tables:
+               -Average-case for Search/Insert/Delete: O(1)
+               -In the worst case, it could be O(n), but this is rare with good hash functions and handling collisions.
+
+6-Trees:
+        -Binary Search Tree (BST) operations (average):
+        -Search: O(log n)
+        -Insertion: O(log n)
+        -Deletion: O(log n)
+        -AVL Tree or Red-Black Tree operations:
+        -Search: O(log n)
+        -Insertion: O(log n)
+        -Deletion: O(log n)
+
+7-Heaps:
+        -Insertion: O(log n)
+        -Extraction of the minimum/maximum: O(log n)
+
+8-Graphs:
+         --Adjacency Matrix:
+          -Space: O(V^2)
+          -Checking if there is an edge between two nodes: O(1)
+         --Adjacency List:
+          -Space: O(V + E)
+          -Checking if there is an edge between two nodes: O(degree of the node)
+Here is a link that u can see all best cases, average cases and worst cases complexity: https://www.geeksforgeeks.org/time-complexities-of-different-data-structures/
+
+
+Task4: what is the use of multi-map?
+multi-map can be used in real-life for:
+                                       1-Bus Routes and Stops: Mapping bus routes to multiple stops along the way.
+                                       2-Event Scheduling: Associating a date with a list of events happening on that day.
+                                       3-Social Networks: Connecting users to multiple friends or groups they belong to.
+                                       4-Inventory Management: Tracking multiple items stored at the same location or with the same identifier.
+
+
+Task 5: 
