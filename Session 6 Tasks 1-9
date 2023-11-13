@@ -92,4 +92,96 @@ multi-map can be used in real-life for:
                                        4-Inventory Management: Tracking multiple items stored at the same location or with the same identifier.
 
 
-Task 5: 
+Task 5: Everything about Hash-map and how it differ from a data structure to another?
+A hash map, also known as a hash table, is a data structure that stores key-value pairs and provides efficient lookup, insertion, and deletion operations.
+The basic idea behind a hash map is to use a hash function to map each key to an index in an array or a similar data structure.
+This index is called the "bucket." The value associated with the key is stored in that bucket.
+When you want to retrieve a value associated with a key, the hash map uses the same hash function to find the corresponding bucket and retrieves the value from there.
+
+Here are some key points about hash maps:
+                                         1-Hash Function: -The hash function takes a key as input and returns an index (or hash code) that determines the bucket in which the corresponding value will be stored.
+                                                          -An ideal hash function should distribute keys uniformly across the available buckets.
+
+                                         2-Collisions: -Collisions occur when two different keys hash to the same bucket.
+                                                       -Hash maps need a strategy to handle collisions, and common techniques include chaining (using linked lists or other data structures to store multiple key-value pairs in the same bucket) and open addressing (probing the next available bucket when a collision occurs).
+
+                                         3-Efficiency: -Hash maps offer efficient average-case time complexity for operations like insertion, deletion, and retrieval, often close to O(1) on average when the hash function is well-designed and collisions are minimized.
+                                                       -However, in the worst case (e.g., lots of collisions), these operations can become less efficient, deviating from O(1).
+
+                                         4-Dynamic Sizing: Many hash maps can dynamically resize themselves when they become too full (a load factor threshold is reached), which helps maintain their efficiency as the number of elements grows.
+
+                                         5-Use Cases: -Hash maps are used in various applications, such as symbol tables in programming languages, database indexing, caching, and various algorithms and data structures.
+                                                      -They provide an efficient way to associate keys with values, making them suitable for tasks that require fast data retrieval.
+Now, let's briefly compare hash maps to other data structures:
+                                                              1-Arrays and Lists:
+                                                                                 --Hash Map:
+                                                                                            -Uses a hash function to map keys to indices in an array.
+                                                                                            -Provides fast key-based access but does not necessarily maintain order.
+                                                                                 --Arrays and Lists:
+                                                                                            -Allow access to elements by index.
+                                                                                            -Provide ordered collections, with lists allowing for dynamic resizing.
+                                                              2-Linked Lists:
+                                                                             --Hash Map:
+                                                                                        -Uses linked lists or other structures to handle collisions.
+                                                                                        -Offers fast insertion and deletion for key-value pairs.
+                                                                             --Linked Lists:
+                                                                                        -Provide fast insertion and deletion but lack direct key-based access.
+                                                              3-Trees (Binary Search Trees, AVL Trees, etc.):
+                                                                                                             --Hash Map:
+                                                                                                                        -Offers average-case O(1) time complexity for key-based operations.
+                                                                                                                        -May experience performance degradation in the worst case due to collisions.
+                                                                                                             --Trees:
+                                                                                                                        -Provide ordered access with efficient searching, insertion, and deletion.
+                                                                                                                        -May consume more memory and have variations in performance.
+                                                              4-Sets and LinkedHashSet:
+                                                                                       --Hash Map:
+                                                                                                  -Stores key-value pairs, allowing for mapping from keys to values.
+                                                                                                  -Supports unique keys but also allows for values to be duplicates.
+                                                                                       --Sets and LinkedHashSet:
+                                                                                                                -Store unique elements without associated values.
+                                                                                                                -LinkedHashSet in Java maintains insertion order but lacks key-value pairs.
+                                                              5-Queues and Stacks:
+                                                                                  --Hash Map:
+                                                                                             -Primarily focuses on key-based access and does not inherently support the order of insertion.
+                                                                                  --Queues and Stacks:
+                                                                                                      -Provide ordered access, with queues following a first-in-first-out (FIFO) order and stacks following a last-in-first-out (LIFO) order.
+
+
+Task 6: What is Graph traversal algorithms?
+Graph traversal algorithms are techniques used to visit and explore the vertices (nodes) and edges of a graph data structure.
+Graph traversal is a fundamental operation in graph theory and is often used in various applications such as pathfinding, network analysis, and data representation.
+There are two main types of graph traversal algorithms:
+                                                       1-Depth-First Search (DFS):
+                                                                                  -DFS explores as far as possible along each branch before backtracking.
+                                                                                  -It can be implemented using either recursion or an explicit stack.
+                                                                                  -DFS is often used in tasks such as topological sorting, cycle detection, and solving puzzles.
+                                                       2-Breadth-First Search (BFS):
+                                                                                  -BFS explores the graph level by level, visiting all the neighbors of a node before moving on to the next level.
+                                                                                  -It uses a queue data structure to keep track of the nodes to be visited.
+                                                                                  -BFS is commonly used in finding the shortest path in unweighted graphs and network analysis.
+These algorithms help in various graph-related problems, such as finding connected components, detecting cycles, checking for bipartiteness, and solving problems related to paths and distances between nodes.
+
+
+Task 7: libraries that implements graphs in python.
+1-NetworkX
+2-igraph
+3-Graph-tool
+4-PyGraphviz
+5-Matplotlib
+6-PyTorch Geometri
+
+
+Task 8: A real example of binary search tree in coding ,Red black tree and the difference between them?
+1-Binary Search Tree (BST):
+                           -Balance: A standard Binary Search Tree does not guarantee balanced structure.
+                            Depending on the order in which elements are inserted or deleted, a BST can become skewed, leading to inefficient search, insert, and delete operations.
+                           -Performance: In the worst case, the height of a BST can be equal to the number of nodes in the tree, resulting in operations with a time complexity of O(n), where n is the number of nodes.
+2-Red-Black Tree:
+                 -Balance: A Red-Black Tree is a type of self-balancing binary search tree.
+                           It maintains balance through a set of rules that ensure the tree remains approximately balanced after each insertion or deletion operation.
+                 -Coloring: Each node in a Red-Black Tree is assigned one of two colors: red or black.
+                            The tree must satisfy several properties, including the requirement that no two adjacent nodes (parent and child, or sibling nodes) can be red.
+                 -Guaranteed Height: Due to the balancing rules, a Red-Black Tree guarantees that the height of the tree is logarithmic in the number of nodes, resulting in more predictable and efficient performance for search, insert, and delete operations.
+
+
+Task 9: How to sort the priorityqueue from the larger element to smaller element?
