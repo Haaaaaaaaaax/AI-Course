@@ -1,4 +1,4 @@
-#What is the difference between OOD(Object-Oriented Design) and a class diagram?
+#Task 1: What is the difference between OOD(Object-Oriented Design) and a class diagram?
 1-Object-Oriented Design (OOD):
   Purpose: OOD is a high-level design process that involves defining the structure and behavior of a software system using object-oriented principles. It focuses on how the system will be organized, what classes will be created, and how these classes will interact to fulfill the system's requirements.
   Scope: OOD encompasses the entire design process, including the definition of classes, their attributes and methods, the relationships between classes, and the overall architecture of the system.
@@ -9,3 +9,20 @@
   Scope: A class diagram is a part of OOD. It focuses specifically on the classes and their relationships within the system. It provides a static view of the system's architecture, showing the class structure but not dynamic behaviors or interactions.
   Abstraction: Class diagrams are concrete and visual representations of the classes in the system, their attributes, and associations between them.
 
+
+#Task 2: How to prevent the user from entering a specified character in python?
+we can msvcrt library this library works on windows 
+other libraries like getch, curses and termios works in unix-like systems and u might want to install it first 
+to import it simply user (import msvcrt)
+
+
+#Task 3: How to read a pdf or word file in python?
+1- PDF file
+there alot of PDF libraries in python the famous one is PyPDF u can install it using (pip install PyPDF)
+there is also ironPDF u can see everything about it in this link : https://ironpdf.com/python/blog/python-pdf-tools/python-read-pdf-tutorial/
+
+2- Word file
+you can use a python-docx library you can install it using (pip install python-docx)
+
+
+#Task 4: How to write a text in a certain line in a text file in python?
