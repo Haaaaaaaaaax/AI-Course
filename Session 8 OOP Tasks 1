@@ -1,0 +1,19 @@
+what are the types of inheritance?
+
+1- Single Inheritance:
+                      In single inheritance, a class can inherit from only one superclass. That is, a subclass can have only one parent class.
+2-Multiple Inheritance:
+                       Multiple inheritance allows a class to inherit from more than one superclass. 
+                       This means that a subclass can have multiple parent classes, and it inherits properties and behaviors from all of them.
+3-Multilevel Inheritance:
+                         In multilevel inheritance, a class can inherit from a superclass, and then another class can inherit from the subclass, creating a chain of inheritance.
+4-Hierarchical Inheritance:
+                           In hierarchical inheritance, multiple classes inherit from a single base class.
+                           It forms a tree-like structure where one base class has multiple subclasses.
+5-Hybrid (or Virtual) Inheritance:
+                                  Hybrid inheritance is a combination of two or more types of inheritance mentioned above.
+                                  For example, a class might use multiple inheritance and at the same time, it may participate in other types of inheritance.
+6-Single Inheritance with Interfaces (or Pure Abstract Classes):
+                                                                Some programming languages, like Java and C#, allow a form of multiple inheritance through interfaces or pure abstract classes.
+                                                                An interface defines a contract for classes that implement it, but it doesn't provide any implementation.
+                                                                A class can implement multiple interfaces.
