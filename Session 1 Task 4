@@ -1,7 +1,0 @@
-#How to make a constant in python?
-
-
-from typing import Final
-x: Final = 10
-
-#now x is a constant not a variable and if you try to do x = 0 or any number it will result an error
