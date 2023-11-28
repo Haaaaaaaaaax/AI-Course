@@ -1,15 +1,15 @@
-#What mechanism should we us in python to create an android app?
+Task 1: What mechanism should we us in python to create an android app?
 
-#Best two options for android apps or GUIs is tkinter and kivy both are working on python.
-#There are some alternatives like QPython whic is a script engine that excutes python on an Android devices, also there are PySide PyMob which are libraries and last we have Pyqtdeploy.
-#we will only cover tkinter and kivy in this file and know how to import it.
-
-
+Best two options for android apps or GUIs is tkinter and kivy both are working on python.
+There are some alternatives like QPython whic is a script engine that excutes python on an Android devices, also there are PySide PyMob which are libraries and last we have Pyqtdeploy.
+we will only cover tkinter and kivy in this file and know how to import it.
 
 
-#tkinter
 
-# Import Module
+
+1-tkinter
+
+#Import Module
 from tkinter import *
  
 # create root window
@@ -32,7 +32,7 @@ root.mainloop()
 
 
 
-#kivy
+2-kivy
 
 #Import Module
 import kivy
@@ -58,3 +58,13 @@ INSTANT().run()
            -https://www.geeksforgeeks.org/create-first-gui-application-using-python-tkinter/
            -https://towardsdatascience.com/building-android-apps-with-python-part-1-603820bebde8
            -https://www.geeksforgeeks.org/python-kivy-kv-file/
+
+
+
+#How to make a constant in python?
+
+
+from typing import Final
+x: Final = 10
+
+now x is a constant not a variable and if you try to do x = 0 or any number it will result an error
