@@ -1,0 +1,13 @@
+Task 1: What is vector Database?
+A vector database is a type of database that indexes and stores vector embeddings for fast retrieval and similarity search, with capabilities like CRUD operations, metadata filtering, and horizontal scaling.
+Usage: 
+      1- Long-term memory for LLMs (Large language modules).
+      2- semantic search : search based on the meaning or context.
+      3- similarity search for text, images, audio, or video data.
+      4- recommendation engine.
+
+In case if you want to remember what indexes and vector embedding is you can see these links : 1- https://www.cloudflare.com/learning/ai/what-is-vector-database/
+                                                                                               2- https://www.youtube.com/watch?v=dN0lsF2cvm4
+
+
+
