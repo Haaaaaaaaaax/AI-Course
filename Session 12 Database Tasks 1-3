@@ -10,4 +10,36 @@ In case if you want to remember what indexes and vector embedding is you can see
                                                                                                2- https://www.youtube.com/watch?v=dN0lsF2cvm4
 
 
+Task 2: compare between all database types and how to choose the best data base for your project?
+
+1- Hierarchical Databases:
+                           -The hierarchical database looks similar to a family tree.
+                           -A single object (the “parent”) has one or more objects beneath it (the “child”).
+                           -No child can have more than one parent.
+                           -In exchange for the rigid and complex navigation of the parent child structure, the hierarchical database offers high performance, as there’s easy access and a quick querying time.
+                           -The Windows Registry is one example of this system.
+
+2- Relational Databases:
+                         -This database stores data in discrete tables, which can be joined together by fields known as foreign keys.
+                         -This database commonly uses Structured Query Language (SQL) for operations like creating, reading, updating, and deleting (CRUD) data.
+
+3-Non-Relational Databases:
+                           -Non-relational management systems are commonly referred to as NoSQL databases.
+                           -NoSQL databases use a data model that has a different structure than the rows and columns table structure used with RDBMS.
+                           -NoSQL databases are different from each other.
+                           -There are four kinds of this database: 1- document databases
+                                                                   2- key-value stores
+                                                                   3- column-oriented databases
+                                                                   4- and graph databases.
+
+4- Object oriented databases:
+                             -Object oriented databases store and manage objects on a database server's disk.
+                             -Object oriented databases are unique because associations between objects can persist.
+                             -This means that object oriented programming and the querying of data across complex relationships is fast and powerful.
+
+For more comparsion and examples go to: https://www.mongodb.com/databases/types#:~:text=NoSQL%20databases%20use%20a%20data,oriented%20databases%2C%20and%20graph%20databases.
+
+
+
+
 
