@@ -1,3 +1,25 @@
 Task 1: What is docker?
+docker is a platform which is used to automate the deployment of applications in lightweight containers so that applications can work efficiently in different environments.
+containers: Containers are instances of Docker images that run as isolated processes on a host system.
+            They provide a consistent and reproducible environment, ensuring that an application behaves the same way regardless of the underlying infrastructure.
+images: Docker images are the blueprints for containers.
+        They contain the application code, libraries, dependencies, and other necessary components.
+        Images are created from a set of instructions defined in a file called a Dockerfile.
+
+
 Task 2: Compare between stack and heap in RAM.
+1- Stack :
+          - This memory space stores static variables.
+          - When allocated stack memory is full, stack overflow error happens.
+          - Data saved on the stack can only be accessed by the owner thread, making it safer.
+          - Stack frame access is easier.
+2- Heap :
+          - This memory space stores dynamic variables.
+          - When allocated heap memory is full, stack overflow error happens. 
+          - Heap memory is not safest as data stored in Heap-Memory is visible to all threads.
+          - Heap frame access is difficult.
+
+
 Task 3: What is system calls and APIs?
+
+
