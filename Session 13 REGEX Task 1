@@ -1,0 +1,12 @@
+Task 1: How to determine the data is not one of the classes predicted by the model?
+To predict that the input data is not one of the classes we can use :
+                                                                     1- Confidence Threshold:
+                                                                                              Set a confidence threshold for the predicted probabilities.
+                                                                                              If none of the predicted probabilities for the existing classes surpasses this threshold, you can classify the input as "other" or "unknown." This threshold should be chosen based on the characteristics of your model and dataset.
+                                                                     2- Out-of-Distribution Detection:
+                                                                                                      Train or use an additional model (such as an anomaly detection model or an out-of-distribution detector) to identify inputs that are significantly different from the training data.
+                                                                                                      Out-of-distribution detection methods can be effective in identifying inputs that do not belong to any of the classes the model was trained on.
+                                                                     3- Softmax Layer Modification:
+                                                                                                  Modify the softmax layer of your model to include an "other" or "unknown" class.
+                                                                                                  Train the model with this additional class on a dataset that includes examples of non-human, non-animal images.
+                                                                                                  During inference, if the model assigns the input to this "other" class with high confidence, you can consider it as not belonging to the specified classes.
