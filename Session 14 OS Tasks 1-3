@@ -13,13 +13,22 @@ Task 2: Compare between stack and heap in RAM.
           - When allocated stack memory is full, stack overflow error happens.
           - Data saved on the stack can only be accessed by the owner thread, making it safer.
           - Stack frame access is easier.
+          - Has a limited size
+          - Fragmentations can't occur in the stack.
 2- Heap :
           - This memory space stores dynamic variables.
           - When allocated heap memory is full, stack overflow error happens. 
           - Heap memory is not safest as data stored in Heap-Memory is visible to all threads.
           - Heap frame access is difficult.
+          - Has larger size than the stack and can dynamically grow and shrink as needed during program execution.
+          - Fragmentation can occur in the heap.
 
 
 Task 3: What is system calls and APIs?
+system calls : System calls are the interface between a running program and the operating system (OS).
+               They provide a way for applications to request services from the operating system's kernel.
+               When a program needs to perform tasks that require privileged access or interact with hardware, it makes a system call to the kernel.
 
-
+API : API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software.
+      APIs provide a higher-level interface for application developers to interact with libraries, frameworks, or services.
+      APIs define how software components should communicate and what functionalities are available.
