@@ -61,7 +61,7 @@ INSTANT().run()
 
 
 
-#How to make a constant in python?
+How to make a constant in python?
 
 
 from typing import Final
