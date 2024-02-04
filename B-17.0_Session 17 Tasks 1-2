@@ -1,2 +1,9 @@
 Task 1 : The 3 most famous ML modules that we use until now.
+1- RF(Random Forest).
+2- SVM(Support Vector Machines).
+3- XGBoost
+
+
 Task 2 : How to transform a non-linear equation to a linear equation?
+Basically you can't make a non-linear equation to be a linear equation but there is a substitution trick.
+For example if we have an equation like y = ax^2 + b you can just substitute the x^2 to another variable.
