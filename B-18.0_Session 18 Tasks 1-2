@@ -1,4 +1,37 @@
 Task 1 : What is purposive sampling?
+Purposive sampling is a non-random sampling technique,-
+where researchers intentionally select individuals or groups from a population based on specific characteristics or criteria,-
+relevant to the research question or objectives.
 
 
-Task 2 : What are the types of statistical testing and when to use each type?
+Task 2: What is quota sampling?
+Quota sampling is a non-probability sampling technique,
+where researchers divide the population into subgroups based on certain characteristics (such as age, gender, ethnicity, etc.),
+and then select participants from each subgroup in proportion to their representation in the population. 
+
+Task 3 : What are the types of statistical testing and when to use each type?
+1- Paired T-Test:- The paired t-test is used to compare the means of two related groups or conditions.
+                   In this test, each subject or observation is measured twice, resulting in pairs of data points.
+                 - When to use: You would use the paired t-test when you want to compare the means of two related groups or conditions,
+                                such as before and after measurements on the same subjects or repeated measures within the same group.
+2- Unpaired(independent) T-test:- The unpaired t-test, also known as the independent samples t-test, is used to compare the means of two independent groups.
+                                - When to use: You would use the unpaired t-test when you want to compare the means of two independent groups,
+                                               such as two different treatment groups or two groups of subjects that have not been paired together.
+3- Chi-square test: - A statistical test used to determine if there is a significant association between two categorical variables.
+                    - When to use : The chi-square test is appropriate when you have categorical data and want to assess the relationship between two variables.
+4- ANOVA(Analysis of variance) test:- A statistical test used to compare means among three or more groups.
+                                      It examines whether there are statistically significant differences between the means of the groups by comparing the variance within groups to the variance between groups.
+                                    - When to use: ANOVA is appropriate when you have continuous data and want to compare the means of multiple independent groups.
+5- MANOVA(Multivariate Analysis of Variance) test:- A statistical technique used to compare the means of two or more continuous dependent variables simultaneously across two or more groups.
+                                                  - When to use: MANOVA is used when you have multiple dependent variables and you want to determine if there are significant differences in the means of these variables among different groups or conditions.
+                                                    It is particularly useful when you want to avoid inflation of Type I error rates that may occur with conducting separate univariate analyses for each dependent variable.
+6- Regression analysis: 1.1- Simple Linear Regression:- A statistical method used to model the relationship between a single independent variable (predictor) and a continuous dependent variable.
+                                                    - When to use: Simple linear regression is commonly used when you want to understand or predict the impact of one continuous variable on another.
+                        1.2- Multiple Linear Regression: - Multiple linear regression extends simple linear regression to model the relationship between a dependent variable and two or more independent variables.
+                                                       -When to use: Multiple linear regression is used when you want to understand or predict the impact of multiple independent variables on a continuous dependent variable.
+                        2.1- Simple Logistic Regression:- Simple logistic regression is a statistical method used to model the relationship between a binary dependent variable and a single independent variable.
+                                                        - When to use: Simple logistic regression is commonly used when the dependent variable is binary (e.g., yes/no, success/failure) and you want to understand or predict the probability of the event based on one predictor variable.
+                        2.2- Multiple Logistic Regression:- Multiple logistic regression extends simple logistic regression to model the relationship between a binary dependent variable and two or more independent variables.
+                                                          - Multiple logistic regression is used when the dependent variable is binary and you want to understand or predict the probability of the event based on multiple predictor variables.
+7- Correlation analysis:- A statistical technique used to measure the strength and direction of the linear relationship between two continuous variables.
+                        - When to use: Correlation analysis is appropriate when you want to understand the degree to which two variables are related.
